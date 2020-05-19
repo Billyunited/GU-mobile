@@ -1,0 +1,161 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-family: 'Poppins',
+      sans-serif;
+}
+
+/* fonts: 
+
+
+*/
+
+body {
+   /* margin: 0 auto; */
+}
+
+.container-wrap {
+   margin: 0 auto;
+   max-width: 400px;
+   width: 100%;
+   /*  padding: 0rem 1rem; */
+}
+
+.header {
+   margin: 0 auto;
+   height: 70px;
+   width: 400px;
+   background: linear-gradient(90deg,
+         rgba(2, 159, 254, 1) 0%,
+         rgba(233, 48, 79, 1) 100%);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+}
+
+.container-header {
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 1.3rem;
+}
+
+.header nav {
+   /* display: inline-block; */
+}
+
+.hero {
+   margin: 0 auto;
+   background-image: url(/images/gu-portada.jpg);
+   background-repeat: no-repeat;
+   height: 580px;
+   width: 400px;
+   background-color: rgba(0, 0, 0, .5);
+   background-blend-mode: soft-light;
+   background-position: -230px center;
+   padding: 0 1rem;
+
+}
+
+.hero-container {
+   height: 650px;
+   display: flex;
+   padding-bottom: 150px;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+.hero h1 {
+   color: #fff;
+   font-size: 28px;
+   text-align: center;
+   margin-bottom: 1.5rem;
+}
+
+.hero a {
+   display: inline-block;
+   font-size: 1rem;
+   padding: .5rem .8rem;
+   border: 1px solid #fff;
+   color: #fff;
+   text-decoration: none;
+}
+
+.ministerios {
+   margin: 0 auto;
+
+}
+
+.reformedyouth {
+   /* margin: 0 auto; */
+   padding: 1rem;
+   height: 450px;
+   width: 400px;
+   background: rgb(240, 141, 55);
+   background: linear-gradient(90deg, rgba(240, 141, 55, 1) 0%, rgba(80, 31, 240, 1) 100%);
+   display: flex;
+   flex-direction: column;
+}
+
+.reformedyouth h2 {
+   color: white;
+   margin-top: 3rem;
+   text-align: center;
+   font-size: 4rem;
+   line-height: 0.8;
+}
+
+.reformedyouth p {
+   font-size: 1rem;
+   color: #fff;
+   text-align: center;
+   margin-top: 1rem;
+
+}
+
+.reformedyouth .btn-reformedyouth {
+   background: black;
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   padding: 1rem 2rem;
+   margin: 0 auto;
+   margin-top: 1rem;
+}
+
+.mujerdegracia {
+   margin: 0 auto;
+   padding: 1rem;
+   height: 28.125rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background: #DC9797;
+   color: white;
+}
+
+.mujerdegracia h2 {
+   font-size: 3rem;
+   line-height: 1;
+   margin-bottom: 1rem;
+
+}
+
+.mujerdegracia p {
+   margin-bottom: 1rem;
+}
+
+.mujerdegracia .btn-mujerdegracia {
+   background: #F9D36A;
+   padding: 1rem 2rem;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 50px;
+}
